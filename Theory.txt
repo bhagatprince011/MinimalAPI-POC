@@ -1,0 +1,17 @@
+﻿Minimal APIs in .NET refer to a simplified approach to building HTTP APIs using ASP.NET Core. Introduced in .NET 6, they provide a lightweight alternative to the traditional ASP.NET MVC framework by reducing the boilerplate code required to set up and run an API.
+
+Key Features of Minimal APIs:
+	1. Simplified Startup: No need for controllers, extensive middleware configuration.
+	2. Reduced Boilerplate: Use concise syntax, typically written directly in Program.cs.
+	3. Top-level Statements: This allows code execution directly in the Program.cs file.
+	4. Optimized for Small Services: Ideal for microservices, serverless functions, or small applications.
+	5. Improved Performance: Lower overhead due to fewer abstractions compared to traditional MVC APIs.
+
+Advantages:
+	Fast Setup: You can spin up an API in minutes with very little code.
+	Less Complexity: For simple applications, it avoids the overhead of an MVC pattern.
+	Integration with Existing Features: You can still use features like dependency injection, logging, and middleware.
+Use Cases:
+	Microservices
+	Serverless APIs (e.g., Azure Functions)
+	Small to medium-sized applications that don’t require the full MVC framework
